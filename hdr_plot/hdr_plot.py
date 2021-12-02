@@ -62,12 +62,11 @@ def info_text(name, data, jitter):
 def info_box(ax, text):
     props = dict(boxstyle="round", facecolor="lightcyan", alpha=0.5)
 
-    # place a text box in upper left in axes coords
     ax.text(
         #    0.05,
         #    0.95,
         1.01,
-        0.5,
+        0.95,
         text,
         transform=ax.transAxes,
         verticalalignment="top",
